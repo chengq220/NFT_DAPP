@@ -2,7 +2,7 @@
 
 Dependencies: \
 Bootstrap\
-Create React App\
+Create React App
 
 ## Available Scripts
 
