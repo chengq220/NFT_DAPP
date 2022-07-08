@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-Dependencies: 
-Bootstrap
-Create React App
+Dependencies: \
+Bootstrap\
+Create React App\
 
 ## Available Scripts
 
