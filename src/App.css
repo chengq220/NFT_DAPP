@@ -1,3 +1,7 @@
+html{
+  height:100%;
+  width:100%;
+}
 .main-app {
     text-align: center;
     margin: 100px;
@@ -30,4 +34,80 @@
   justify-content: space-between;
   font-weight: bold;
   text-align: right;
+}
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display:flex;
+  position:absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+.option{
+  box-sizing: border-box;
+  margin-block: 0px;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, HelveticaNeue, "Helvetica Neue", Helvetica, Roboto, "Segoe UI", Arial, sans-serif;
+  appearance: none;
+  border: 0.5px solid rgb(102, 102, 102);
+  cursor: pointer;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 50ms ease 0s, color 50ms ease 0s, border-color 50ms ease 0s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px 20px;
+  width: 75%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.btn{
+    border-radius: 12px;
+}
+
+.mt-1{
+    border-radius: 12px;
+}
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
 }
