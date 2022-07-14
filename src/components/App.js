@@ -191,7 +191,7 @@ function App(){
               />
             </div>
             <p className="forgot-password text-right mt-2">
-            <a style = {{textDecoration:'none'}}href="#"> Forgot Password?</a>
+            <a style = {{textDecoration:'none'}} href="#"> Forgot Password?</a>
             </p>
             <div className="d-grid gap-2 mt-3">
               <button type="submit" className="btn btn-primary">
