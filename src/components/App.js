@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import metamask from "./images/metamask.png";
-import './App.css';
-import contract from './contracts/NewMintNet.json';
+import metamask from "../images/metamask.png";
+import '../styles/App.css';
+import contract from '../contracts/NewMintNet.json';
 import { ethers } from 'ethers';
 
 {/*The essential information of the smart contract that the dApp is connecting to*/}
@@ -16,7 +16,7 @@ const signer = provider.getSigner();
 const nftContract = new ethers.Contract(contractAddress, abi, signer);
 
 function App(){
-  {/*Variables that we want to keep track of*/}
+
   const [currentAccount, setCurrentAccount] = useState(null);
   const [currentBalance, setBalance] = useState(0);
 
@@ -60,6 +60,7 @@ function App(){
       let signature = await signer.signMessage(message);
       let recover_address = ethers.utils.verifyMessage(message,signature);
 
+      {/*Make sure that the recovered address is the same as the walle address*/}
       if(recover_address = accounts[0]){
         setCurrentAccount(accounts[0]);
         console.log(provider);
