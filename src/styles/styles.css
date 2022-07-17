@@ -1,0 +1,26 @@
+.option{
+    box-sizing: border-box;
+    margin-block: 0px;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, HelveticaNeue, "Helvetica Neue", Helvetica, Roboto, "Segoe UI", Arial, sans-serif;
+    appearance: none;
+    border: 0.5px solid rgb(102, 102, 102);
+    cursor: pointer;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 50ms ease 0s, color 50ms ease 0s, border-color 50ms ease 0s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 12px 20px;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0 auto;
+  }
